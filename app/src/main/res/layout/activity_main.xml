@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gandatadyosurya.aplication.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnQRBarcodeResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QR Barcode" />
+
+            <Button
+                android:id="@+id/btnActivityResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity For Result" />
+
+            <Button
+                android:id="@+id/btnMessageSend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Message" />
+
+            <Button
+                android:id="@+id/btnListBuild"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ListView Buildder" />
+
+            <Button
+                android:id="@+id/btnParalax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paralax" />
+
+            <Button
+                android:id="@+id/btnservice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service" />
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload Image" />
+
+            <Button
+                android:id="@+id/btnNavigationDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Navigation Drawer" />
+
+            <Button
+                android:id="@+id/btnPopup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Popup WIndows" />
+
+            <Button
+                android:id="@+id/btnGridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grid View" />
+
+            <Button
+                android:id="@+id/btnshared1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shared Preference" />
+
+            <Button
+                android:id="@+id/btngps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/btnbiodata"
+                android:layout_alignLeft="@+id/btnbiodata"
+                android:layout_alignRight="@+id/btnbiodata"
+                android:layout_alignStart="@+id/btnbiodata"
+                android:layout_below="@+id/btnbiodata"
+                android:text="Recyler view" />
+
+            <Button
+                android:id="@+id/btntablayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/btninput"
+                android:layout_alignLeft="@+id/btninput"
+                android:layout_alignRight="@+id/btninput"
+                android:layout_alignStart="@+id/btninput"
+                android:layout_below="@+id/btninput"
+                android:text="Tab Layout" />
+
+            <Button
+                android:id="@+id/btnIntent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/btnLoading"
+                android:layout_alignLeft="@+id/btnLoading"
+                android:layout_alignRight="@+id/btnLoading"
+                android:layout_alignStart="@+id/btnLoading"
+                android:layout_below="@+id/btnLoading"
+                android:text="Intent" />
+
+            <Button
+                android:id="@+id/btnbiodata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/btnListView"
+                android:layout_alignLeft="@+id/btnListView"
+                android:layout_alignRight="@+id/btnListView"
+                android:layout_alignStart="@+id/btnListView"
+                android:layout_below="@+id/btnListView"
+                android:text="SQL" />
+
+            <Button
+                android:id="@+id/btnLoading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/btnMessageSend"
+                android:layout_alignLeft="@+id/btnMessageSend"
+                android:layout_alignRight="@+id/btnMessageSend"
+                android:layout_alignStart="@+id/btnMessageSend"
+                android:layout_below="@+id/btnMessageSend"
+                android:text="Loading" />
+
+            <Button
+                android:id="@+id/btnListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/btnIntent"
+                android:layout_alignLeft="@+id/btnIntent"
+                android:layout_alignRight="@+id/btnIntent"
+                android:layout_alignStart="@+id/btnIntent"
+                android:layout_below="@+id/btnIntent"
+                android:text="ListView" />
+
+            <Button
+                android:id="@+id/btninput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/btngps"
+                android:layout_alignLeft="@+id/btngps"
+                android:layout_alignRight="@+id/btngps"
+                android:layout_alignStart="@+id/btngps"
+                android:layout_below="@+id/btngps"
+                android:text="Input" />
+
+            <Button
+                android:id="@+id/btnToast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Toast" />
+
+            <Button
+                android:id="@+id/btnmessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/btnAlertDialog"
+                android:layout_alignLeft="@+id/btnAlertDialog"
+                android:layout_alignRight="@+id/btnAlertDialog"
+                android:layout_alignStart="@+id/btnAlertDialog"
+                android:layout_below="@+id/btnAlertDialog"
+                android:text="Message Dialog" />
+
+            <Button
+                android:id="@+id/btnAlertDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/btnToast"
+                android:layout_alignLeft="@+id/btnToast"
+                android:layout_alignRight="@+id/btnToast"
+                android:layout_alignStart="@+id/btnToast"
+                android:layout_below="@+id/btnToast"
+                android:text="Alert Dialog" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date Picker" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
